@@ -9,6 +9,14 @@ class Controller_Pc_Race_Index extends Stourweb_Controller
 
     }
 
+    //二维码页面
+    public function action_qr()
+    {
+        $url = $GLOBALS['cfg_basehost'].'/phone/race/';
+        $this->assign('url',$url);
+        $this->display('race/qr');
+    }
+
     //抢答页面
     public function action_index()
     {

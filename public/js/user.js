@@ -81,5 +81,5 @@ function pingtest() {
 		}
 	);
 }
-//setTimeout("pingtest()",1000);
-//setInterval("pingtest()",5000);
+setTimeout("pingtest()",1000);
+setInterval("pingtest()",5000);
